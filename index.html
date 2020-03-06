@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tachenrichner</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="calcul">
+            <div id="result"></div>
+
+            <div id="keyboard">
+
+                <button class="operator" onclick="getNumber('*')" id="*">&times;</button>
+                <button class="operator" onclick="getNumber('/')" id="/"> &#247; </button>
+                <button class="operator" onclick="getNumber('-')" id="-">-</button>
+                <button class="operator" onclick="getNumber('+')" id="+">+</button>
+                <button class="number" onclick="getNumber('.')" id=".">.</button>
+
+                <button class="number" onclick="getNumber(9)" id="9">9</button>
+                <button class="number" onclick="getNumber(8)" id="8">8</button>
+                <button class="number" onclick="getNumber(7)" id="7">7</button>
+                <button class="number" onclick="getNumber(6)" id="6">6</button>
+                <button class="number" onclick="getNumber(5)" id="5">5</button>
+                <button class="number" onclick="getNumber(4)" id="4">4</button>
+                <button class="number" onclick="getNumber(3)" id="3">3</button>
+                <button class="number" onclick="getNumber(2)" id="2">2</button>
+                <button class="number" onclick="getNumber(1)" id="1">1</button>
+                <button class="number" onclick="getNumber(0)" id="0">0</button>
+
+                <button class="operator" onclick="rechnen()" id="=">=</button>
+                <button class="operator" onclick="clearResult()" id="clear">C</button>
+                <h1>mady by JOKER</h1>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
